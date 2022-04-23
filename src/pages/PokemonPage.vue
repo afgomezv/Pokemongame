@@ -52,7 +52,7 @@ export default {
       if (selectId === this.pokemon.id) {
         this.message = `Correcto, ${this.pokemon.name}`;
       } else {
-        this.message = `Oops era ${this.pokemon.name}`;
+        this.message = `Oops, era ${this.pokemon.name}`;
       }
     },
     newGame() {
